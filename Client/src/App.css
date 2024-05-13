@@ -1,0 +1,166 @@
+.App {
+  display: flex;
+  flex: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(40, 4, 4);
+  height: 100vh;
+}
+.time {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  width: 30%;
+  height: 20vh;
+  margin-bottom: 5%;
+}
+.voice {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  width: 30%;
+  height: 20vh;
+}
+.components {
+  width: 90%;
+  gap: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.text {
+  margin-top: 10px;
+  text-align: center;
+  color: aliceblue;
+}
+.tempEnv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.environments {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 30%;
+  border: 1px solid wheat;
+}
+.thermo {
+  align-self: center;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 25px;
+  border-radius: 5px;
+}
+#background {
+  position: fixed;
+  margin-bottom: 60px;
+  width: 15px;
+}
+.hum {
+  font-weight: bolder;
+  font-family: cursive;
+  color: rgb(80, 194, 235);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.temp {
+  font-weight: bolder;
+  font-family: cursive;
+  color: rgb(255, 184, 70);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.Circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 49%;
+  align-self: center;
+}
+.dark {
+  background-color: rgb(25, 4, 4) !important;
+  box-shadow: 0 0 50px rgb(15, 16, 15);
+  border: 1px solid rgb(54, 16, 9);
+}
+.light {
+  background-color: rgb(32, 253, 180) !important;
+  border: 2px solid rgb(19, 205, 87);
+  box-shadow: 0 0 100px rgb(32, 253, 180);
+}
+.Square {
+  height: 50px;
+  width: 150px;
+  background-color: rgb(115, 116, 115);
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Square .textOff {
+  color: red;
+  align-self: center;
+}
+.Square .textOn {
+  color: rgb(0, 255, 64);
+  align-self: center;
+}
+.bulb {
+  align-self: center;
+  margin-top: 50px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  height: 200px;
+  border: 2px solid grey;
+}
+.info {
+  align-self: center;
+  background-color: rgb(69, 68, 67);
+  width: 250px;
+  display: flex;
+  padding: 20px;
+  color: aquamarine;
+  text-align: center;
+  flex-direction: column;
+  height: 150px;
+}
+p {
+  text-align: justify;
+  line-height: 0;
+}
+.land-container {
+  align-self: center;
+  height: 250px;
+  width: 250px;
+  color: green;
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.App .content {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+}
